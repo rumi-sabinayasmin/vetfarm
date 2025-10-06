@@ -23,21 +23,14 @@ export const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl bg-background/80 backdrop-blur-sm rounded-2xl p-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
-            Premium Care for Your
-            <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> Furry Friends</span>
+            Total Pet Care for Your
+            <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> Beloved Companions</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Quality nutrition and professional vet care, all in one place. Your pet deserves the best.
+            Expert veterinary consultations, vaccinations, and health checkups in the comfort of your home. Bengal's most trusted pet care service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button 
-              variant="hero" 
-              size="xl"
-              onClick={scrollToProducts}
-              className="group"
-            >
-              Shop Pet Food
-            </Button>
+
             <Button 
               variant="outline" 
               size="xl"
@@ -45,7 +38,15 @@ export const Hero = () => {
               className="group"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
-              Book Vet Care
+              Connect with a Vet
+            </Button>
+            <Button 
+              variant="hero" 
+              size="xl"
+              onClick={scrollToProducts}
+              className="group"
+            >
+              Order Pet Food
             </Button>
           </div>
         </div>
