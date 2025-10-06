@@ -30,9 +30,8 @@ export const Hero = () => {
             Expert veterinary consultations, vaccinations, and health checkups in the comfort of your home. Bengal's most trusted pet care service.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-
             <Button 
-              variant="outline" 
+              variant="hero" 
               size="xl"
               onClick={scrollToBooking}
               className="group"
@@ -41,7 +40,7 @@ export const Hero = () => {
               Connect with a Vet
             </Button>
             <Button 
-              variant="hero" 
+              variant="outline" 
               size="xl"
               onClick={scrollToProducts}
               className="group"
