@@ -17,12 +17,12 @@ export const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/30 via-background/20 to-background/10" />
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-2xl">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        <div className="max-w-2xl bg-background/80 backdrop-blur-sm rounded-2xl p-8">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
             Premium Care for Your
             <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> Furry Friends</span>
           </h1>
