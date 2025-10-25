@@ -7,8 +7,9 @@ export const Hero = () => {
     document.getElementById("products")?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const scrollToBooking = () => {
-    document.getElementById("booking")?.scrollIntoView({ behavior: "smooth" });
+  const handleWhatsAppContact = () => {
+    const message = "Hi! I'd like to book vet care services for my pet.";
+    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -31,13 +32,13 @@ export const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
-              variant="hero" 
+              variant="whatsapp" 
               size="xl"
-              onClick={scrollToBooking}
+              onClick={handleWhatsAppContact}
               className="group"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
-              Connect with a Vet
+              WhatsApp a Vet
             </Button>
             <Button 
               variant="outline" 

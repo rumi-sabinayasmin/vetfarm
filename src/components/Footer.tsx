@@ -1,6 +1,11 @@
 import { MessageCircle, Mail, MapPin, Phone } from "lucide-react";
 
 export const Footer = () => {
+  const handleWhatsAppContact = () => {
+    const message = "Hi! I'd like to get in touch about your pet care services.";
+    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+  };
+
   return (
     <footer className="bg-card border-t-2 border-border py-12">
       <div className="container mx-auto px-4">
@@ -40,11 +45,21 @@ export const Footer = () => {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span>+91 8327507292</span>
+                <a 
+                  href="tel:+918327507292"
+                  className="text-primary hover:text-primary/80 transition-colors cursor-pointer"
+                >
+                  +91 8327507292
+                </a>
               </li>
               <li className="flex items-start gap-2">
                 <MessageCircle className="w-5 h-5 text-[#25D366] mt-0.5 flex-shrink-0" />
-                <span>WhatsApp: +91 8327507292</span>
+                <button 
+                  onClick={handleWhatsAppContact}
+                  className="text-[#25D366] hover:text-[#20BA5A] transition-colors cursor-pointer"
+                >
+                  WhatsApp: +91 8327507292
+                </button>
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />

@@ -4,6 +4,7 @@ import { Products } from "@/components/Products";
 import { VetCare } from "@/components/VetCare";
 import { BookingSteps } from "@/components/BookingSteps";
 import { Footer } from "@/components/Footer";
+import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <VetCare />
       <BookingSteps />
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 };

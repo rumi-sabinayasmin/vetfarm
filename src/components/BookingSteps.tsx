@@ -24,6 +24,11 @@ const steps = [
 ];
 
 export const BookingSteps = () => {
+  const handleWhatsAppBooking = () => {
+    const message = "Hi! I'd like to book a pet care appointment.";
+    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+  };
+
   return (
     <section id="booking" className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -55,6 +60,14 @@ export const BookingSteps = () => {
                 />
                 <h3 className="text-xl font-bold mb-2">{step.title}</h3>
                 <p className="text-muted-foreground">{step.description}</p>
+                {index === 0 && (
+                  <button 
+                    onClick={handleWhatsAppBooking}
+                    className="mt-4 text-[#25D366] hover:text-[#20BA5A] transition-colors font-medium"
+                  >
+                    Start WhatsApp Chat →
+                  </button>
+                )}
               </div>
             );
           })}
