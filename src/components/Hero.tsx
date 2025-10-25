@@ -24,11 +24,11 @@ export const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl bg-background/80 backdrop-blur-sm rounded-2xl p-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
-            Total Pet Care for Your
-            <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> Beloved Companions</span>
+            Best Pet Care Services in
+            <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> West Bengal</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Expert veterinary consultations, vaccinations, and health checkups in the comfort of your home. Bengal's most trusted pet care service.
+            Expert veterinary consultations, vaccinations, and health checkups in Dhuliyan, Murshidabad (PIN 742202). West Bengal's most trusted pet care service with home visits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 

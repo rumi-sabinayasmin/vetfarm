@@ -40,10 +40,10 @@ export const Products = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Premium <span className="text-primary">Pet Nutrition</span>
+            Premium <span className="text-primary">Pet Food Delivery</span> in West Bengal
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
-            Carefully selected ingredients for your pet's optimal health and happiness
+            High-quality dog and cat food delivered to your doorstep in Dhuliyan, Murshidabad (PIN 742202). Carefully selected ingredients for your pet's optimal health.
           </p>
           <Button 
             variant="whatsapp" 

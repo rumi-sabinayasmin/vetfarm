@@ -20,10 +20,10 @@ export const VetCare = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Professional <span className="text-secondary">Vet Care</span>
+            Professional <span className="text-secondary">Veterinary Services</span> in West Bengal
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Expert veterinary services delivered with care and compassion
+            Expert veterinary services in Berhampore, Murshidabad. Home visits, vaccinations, and health checkups delivered with care and compassion.
           </p>
         </div>
 

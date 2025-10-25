@@ -27,6 +27,7 @@ export const ProductCard = ({ title, description, image, features }: ProductCard
       <CardContent className="p-6">
         <h3 className="text-2xl font-bold mb-2">{title}</h3>
         <p className="text-muted-foreground mb-4">{description}</p>
+        <p className="text-sm text-primary font-medium mb-4">✓ Free delivery in Berhampore, Murshidabad</p>
         <ul className="space-y-2 mb-6">
           {features.map((feature, index) => (
             <li key={index} className="flex items-start">

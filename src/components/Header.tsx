@@ -24,7 +24,7 @@ export const Header = () => {
             />
             <div className="hidden sm:block">
               <h2 className="text-2xl font-bold text-foreground">VetFarm</h2>
-              <p className="text-sm text-muted-foreground">Bengal's most trusted pet care service</p>
+              <p className="text-sm text-muted-foreground">West Bengal's trusted pet care service</p>
             </div>
           </div>
 

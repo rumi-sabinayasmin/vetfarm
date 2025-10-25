@@ -15,7 +15,7 @@ export const Footer = () => {
               VetFarm
             </h3>
             <p className="text-muted-foreground mb-4">
-              From Bowl to Doctor - Complete Pet Wellness.
+              From Bowl to Doctor - Complete Pet Wellness in West Bengal. Serving Berhampore, Murshidabad & surrounding areas.
             </p>
           </div>
 
