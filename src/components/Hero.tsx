@@ -28,7 +28,7 @@ export const Hero = () => {
             <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> West Bengal</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Expert veterinary consultations, vaccinations, and health checkups in Dhuliyan, Murshidabad (PIN 742202). West Bengal's most trusted pet care service with home visits.
+            Expert veterinary consultations, vaccinations, and health checkups in Dhuliyan, Murshidabad. West Bengal's most trusted pet care service with home visits.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 

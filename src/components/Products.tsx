@@ -43,7 +43,7 @@ export const Products = () => {
             Premium <span className="text-primary">Pet Food Delivery</span> in West Bengal
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
-            High-quality dog and cat food delivered to your doorstep in Dhuliyan, Murshidabad (PIN 742202). Carefully selected ingredients for your pet's optimal health.
+            High-quality dog and cat food delivered to your doorstep in Dhuliyan, Murshidabad. Carefully selected ingredients for your pet's optimal health.
           </p>
           <Button 
             variant="whatsapp" 
