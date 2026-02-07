@@ -30,10 +30,10 @@ export const Header = () => {
 
           <nav className="flex items-center gap-2 md:gap-6">
             <button
-              onClick={() => scrollToSection("products")}
+              onClick={() => scrollToSection("booking")}
               className="text-sm md:text-base text-muted-foreground hover:text-foreground transition-colors font-medium"
             >
-              Pet Food
+              For Best Pet Care Services
             </button>
             <Button 
               variant="whatsapp"
