@@ -23,7 +23,7 @@ export const VetCare = () => {
             Professional <span className="text-secondary">Veterinary Services</span> in West Bengal
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Expert veterinary services in Berhampore, Murshidabad. Home visits, vaccinations, and health checkups delivered with care and compassion.
+            Expert veterinary services in Dhuliyan, Murshidabad. Home visits, vaccinations, and health checkups delivered with care and compassion.
           </p>
         </div>
 
