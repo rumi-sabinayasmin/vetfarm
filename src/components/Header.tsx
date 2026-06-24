@@ -8,8 +8,8 @@ export const Header = () => {
   };
 
   const handleWhatsAppContact = () => {
-    const message = "Hi! I'd like to get in touch about your pet care services.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    const message = "Hi! I'd like to book a consultation with the registered veterinary practitioner.";
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -19,21 +19,27 @@ export const Header = () => {
           <div className="flex items-center gap-4">
             <img 
               src={logoImage} 
-              alt="VetFarm Logo" 
+              alt="VetFarm - Registered Veterinary Practitioner in Murshidabad" 
               className="h-12 w-12 rounded-lg object-cover"
             />
             <div className="hidden sm:block">
               <h2 className="text-2xl font-bold text-foreground">VetFarm</h2>
-              <p className="text-sm text-muted-foreground">West Bengal's trusted pet care service</p>
+              <p className="text-sm text-muted-foreground">Registered Veterinary Practitioner · Murshidabad</p>
             </div>
           </div>
 
           <nav className="flex items-center gap-2 md:gap-6">
             <button
+              onClick={() => scrollToSection("vet-care")}
+              className="text-sm md:text-base text-muted-foreground hover:text-foreground transition-colors font-medium hidden md:inline"
+            >
+              Vet Services
+            </button>
+            <button
               onClick={() => scrollToSection("booking")}
               className="text-sm md:text-base text-muted-foreground hover:text-foreground transition-colors font-medium"
             >
-              For Best Pet Care Services
+              Book Appointment
             </button>
             <Button 
               variant="whatsapp"

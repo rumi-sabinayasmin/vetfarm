@@ -8,8 +8,8 @@ export const Hero = () => {
   };
 
   const handleWhatsAppContact = () => {
-    const message = "Hi! I'd like to book vet care services for my pet.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    const message = "Hi! I'd like to book a consultation with the registered veterinary practitioner.";
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -24,11 +24,11 @@ export const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-2xl bg-background/80 backdrop-blur-sm rounded-2xl p-8">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight text-foreground">
-            Best Pet Care Services in
-            <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> West Bengal</span>
+            Best Registered Veterinary Practitioner in
+            <span className="bg-gradient-to-r from-primary to-[hsl(25_90%_65%)] bg-clip-text text-transparent"> Murshidabad</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Expert veterinary consultations, vaccinations, and health checkups in Dhuliyan, Murshidabad. West Bengal's most trusted pet care service with home visits.
+            Licensed veterinary practitioner serving Murshidabad. Home visits, vaccinations, health checkups, and emergency pet care — book your vet on WhatsApp.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 

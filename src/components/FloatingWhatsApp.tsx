@@ -2,8 +2,8 @@ import { MessageCircle } from "lucide-react";
 
 export const FloatingWhatsApp = () => {
   const handleWhatsAppContact = () => {
-    const message = "Hi! I'd like to get in touch about your pet care services.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    const message = "Hi! I'd like to book a consultation with the registered veterinary practitioner.";
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -14,7 +14,7 @@ export const FloatingWhatsApp = () => {
     >
       <MessageCircle className="w-6 h-6" />
       <div className="absolute right-16 top-1/2 transform -translate-y-1/2 bg-[#25D366] text-white px-3 py-2 rounded-lg text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
-        Chat with us!
+        Book a Vet Visit
       </div>
     </button>
   );

@@ -12,7 +12,7 @@ interface ProductCardProps {
 export const ProductCard = ({ title, description, image, features }: ProductCardProps) => {
   const handleOrder = () => {
     const message = `Hi! I'd like to order ${title}`;
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (

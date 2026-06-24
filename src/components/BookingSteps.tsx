@@ -3,30 +3,30 @@ import { MessageCircle, CreditCard, Share2, Calendar } from "lucide-react";
 const steps = [
   {
     icon: MessageCircle,
-    title: "Book a Pet Care",
-    description: "Contact us on WhatsApp to book your appointment"
+    title: "Message on WhatsApp",
+    description: "Tell us about your pet and the care they need"
   },
   {
     icon: CreditCard,
-    title: "Pay using WhatsApp",
-    description: "Receive payment details and make secure UPI payment"
+    title: "Pay via UPI",
+    description: "Receive payment details and pay securely on WhatsApp"
   },
   {
     icon: Share2,
-    title: "Share Transaction",
-    description: "Send your UPI transaction screenshot to confirm"
+    title: "Confirm Booking",
+    description: "Share your UPI transaction screenshot to confirm"
   },
   {
     icon: Calendar,
-    title: "Choose Time Slot",
-    description: "Select your preferred date and time for the visit"
+    title: "Pick a Time Slot",
+    description: "Choose your preferred date for the home vet visit"
   }
 ];
 
 export const BookingSteps = () => {
   const handleWhatsAppBooking = () => {
-    const message = "Hi! I'd like to book a pet care appointment.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    const message = "Hi! I'd like to book a vet consultation with the registered veterinary practitioner.";
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -34,10 +34,10 @@ export const BookingSteps = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Easy <span className="text-secondary">Booking Process</span>
+            Book Your <span className="text-secondary">Vet Visit</span> in 4 Steps
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Schedule professional vet care in just 4 simple steps
+            Schedule a home visit with Murshidabad's registered veterinary practitioner — quick and hassle-free on WhatsApp
           </p>
         </div>
 

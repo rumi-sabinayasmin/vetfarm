@@ -7,7 +7,7 @@ import catFoodImage from "@/assets/cat-food.jpg";
 export const Products = () => {
   const handleWhatsAppOrder = () => {
     const message = "Hi! I'd like to order pet food for my pet.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   const products = [
@@ -40,10 +40,10 @@ export const Products = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Premium <span className="text-primary">Pet Food Delivery</span> in West Bengal
+            Vet-Recommended <span className="text-primary">Pet Food Delivery</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-6">
-            High-quality dog and cat food delivered to your doorstep in Dhuliyan, Murshidabad. Carefully selected ingredients for your pet's optimal health.
+            Premium dog and cat food selected by our registered veterinary practitioner. Delivered to your doorstep in Dhuliyan, Murshidabad.
           </p>
           <Button 
             variant="whatsapp" 

@@ -2,8 +2,8 @@ import { MessageCircle, Mail, MapPin, Phone } from "lucide-react";
 
 export const Footer = () => {
   const handleWhatsAppContact = () => {
-    const message = "Hi! I'd like to get in touch about your pet care services.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    const message = "Hi! I'd like to book a consultation with the registered veterinary practitioner.";
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
@@ -15,7 +15,7 @@ export const Footer = () => {
               VetFarm
             </h3>
             <p className="text-muted-foreground mb-4">
-              From Bowl to Doctor - Complete Pet Wellness in Dhuliyan, Murshidabad & surrounding areas.
+              Best registered veterinary practitioner in Murshidabad. Home vet visits, vaccinations, and vet-recommended pet food in Murshidabad and surrounding areas.
             </p>
           </div>
 
@@ -23,13 +23,13 @@ export const Footer = () => {
             <h4 className="font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>
-                <a href="#booking" className="hover:text-primary transition-colors">
+                <a href="#vet-care" className="hover:text-primary transition-colors">
                   Vet Care Services
                 </a>
               </li>
               <li>
                 <a href="#products" className="hover:text-primary transition-colors">
-                  Pet Food (Coming Soon)
+                  Vet-Recommended Pet Food
                 </a>
               </li>
               <li>
@@ -46,10 +46,10 @@ export const Footer = () => {
               <li className="flex items-start gap-2">
                 <Phone className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                 <a 
-                  href="tel:+918327507292"
+                  href="tel:+918436517292"
                   className="text-primary hover:text-primary/80 transition-colors cursor-pointer"
                 >
-                  +91 8327507292
+                  +91 8436517292
                 </a>
               </li>
               <li className="flex items-start gap-2">
@@ -58,7 +58,7 @@ export const Footer = () => {
                   onClick={handleWhatsAppContact}
                   className="text-[#25D366] hover:text-[#20BA5A] transition-colors cursor-pointer"
                 >
-                  WhatsApp: +91 8327507292
+                  WhatsApp: +91 8436517292
                 </button>
               </li>
               <li className="flex items-start gap-2">

@@ -3,27 +3,27 @@ import { Card, CardContent } from "@/components/ui/card";
 import { MessageCircle, Stethoscope, Syringe, Heart, Clock } from "lucide-react";
 
 const services = [
-  { icon: Stethoscope, name: "Health Checkup", description: "Complete physical examination" },
-  { icon: Syringe, name: "Vaccination", description: "Essential immunizations" },
-  { icon: Heart, name: "Emergency Care", description: "24/7 urgent care support" },
-  { icon: Clock, name: "Regular Visits", description: "Scheduled wellness checks" }
+  { icon: Stethoscope, name: "Health Checkup", description: "Thorough examination by a registered vet" },
+  { icon: Syringe, name: "Vaccination", description: "Core and booster immunizations" },
+  { icon: Heart, name: "Emergency Care", description: "Prompt urgent care when your pet needs it" },
+  { icon: Clock, name: "Home Visits", description: "Vet comes to your doorstep in Murshidabad" }
 ];
 
 export const VetCare = () => {
   const handleBooking = () => {
-    const message = "Hi! I'd like to book vet care services for my pet.";
-    window.open(`https://wa.me/918327507292?text=${encodeURIComponent(message)}`, "_blank");
+    const message = "Hi! I'd like to book a consultation with the registered veterinary practitioner.";
+    window.open(`https://wa.me/918436517292?text=${encodeURIComponent(message)}`, "_blank");
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-secondary/10 to-primary/5">
+    <section id="vet-care" className="py-20 bg-gradient-to-br from-secondary/10 to-primary/5">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Professional <span className="text-secondary">Veterinary Services</span> in West Bengal
+            Registered <span className="text-secondary">Veterinary Practitioner</span> Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Expert veterinary services in Dhuliyan, Murshidabad. Home visits, vaccinations, and health checkups delivered with care and compassion.
+            Licensed veterinary care for dogs and cats across Dhuliyan, Murshidabad. Every consultation is handled by a registered practitioner — at your home or on call.
           </p>
         </div>
 
